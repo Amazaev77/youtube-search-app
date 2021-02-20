@@ -1,0 +1,56 @@
+.header
+    max-width: 1900px
+    height: 80px
+    background-color: #fff
+
+    &__logo
+        width: 55px
+
+    &__logout
+        a
+            color: #1390e5
+            text-decoration: none
+            height: 100%
+            display: flex
+            align-items: center
+
+            &:hover
+                border-bottom: 2px solid #1390e5
+
+
+.container
+    max-width: 1040px
+    display: flex
+    height: 100%
+    margin: 0 auto
+
+    nav
+        flex: 1
+
+.menu
+    display: flex
+    margin: 0
+    height: 100%
+    list-style-type: none
+
+    &__item
+        height: 100%
+        margin-right: 38px
+
+        a
+            height: 100%
+            display: flex
+            color: #1390e5
+            align-items: center
+            font-size: 18px
+            text-decoration: none
+            font-weight: 400
+            box-sizing: border-box
+            border-bottom: 2px solid #fff
+            transition: all 200ms
+
+            &:hover
+                border-bottom: 2px solid #1390e5
+
+            &.active
+                border-bottom: 2px solid #1390e5

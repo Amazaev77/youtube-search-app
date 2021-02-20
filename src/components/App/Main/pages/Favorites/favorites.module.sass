@@ -1,0 +1,60 @@
+.container
+    max-width: 1040px
+    margin: auto
+
+.favorites
+    margin-top: 40px
+
+    &__title
+        font-size: 28px
+        margin-bottom: 40px
+
+    &__list
+        padding: 0
+        list-style-type: none
+
+    &__item
+        padding: 13px 0 14px 20px
+        background-color: #fff
+        border-bottom: 1px solid #f1f1f1
+        display: flex
+        justify-content: space-between
+
+        .text
+            font-weight: 500
+
+        div
+            .edit, .delete, .execute
+                background-color: #fff
+                border: none
+                outline: none
+                cursor: pointer
+                font-size: 14px
+
+                &:disabled
+                    color: #b4b4b4
+                    cursor: default
+
+                    &:hover
+                        color: #b4b4b4
+
+            .edit
+                color: #1390e5
+                margin-right: 12px
+
+                &:hover
+                    color: #0f75ba
+
+            .delete
+                color: #ff0000
+                margin-right: 13px
+
+                &:hover
+                    color: #d10606
+
+            .execute
+                margin-right: 13px
+                color: #1390e5
+
+                a
+                    color: #1390e5

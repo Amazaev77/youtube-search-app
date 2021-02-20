@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "user1111"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "user2222"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "userId": 2,
+      "text": "топ сериалы",
+      "name": "Сериал",
+      "maxResults": "12"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "text": "Вечерний ургант",
+      "name": "Передача",
+      "maxResults": "12"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "text": "футбол",
+      "name": "Спорт",
+      "maxResults": "12"
+    },
+    {
+      "text": "Кот в мешке",
+      "userId": 1,
+      "id": 6,
+      "name": "Прикол",
+      "maxResults": "12"
+    },
+    {
+      "text": "ураган",
+      "name": "Стихия",
+      "maxResults": "34",
+      "userId": 2,
+      "id": 7
+    }
+  ]
+}

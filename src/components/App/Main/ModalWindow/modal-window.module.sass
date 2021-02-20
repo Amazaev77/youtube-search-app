@@ -1,0 +1,115 @@
+.modal
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    z-index: 1
+
+    &__background
+        position: sticky
+        height: 100vh
+        background-color: rgba(81, 80, 80, 0.67)
+
+    &__wrapper
+        position: sticky
+        width: 510px
+        height: 573px
+        top: 120px
+        border-radius: 10px
+        margin: auto
+        padding: 36px 40px 0
+        box-sizing: border-box
+        background-color: #fff
+        color: #272727
+        font-size: 16px
+        font-weight: 400
+        box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2)
+
+    &__title
+        color: #000000
+        font-size: 18px
+        font-weight: 500
+        text-align: center
+
+    &__label-request
+        margin-top: 36px
+        color: #272727
+        margin-bottom: 4px
+
+    &__label-name
+        margin-bottom: 4px
+
+        &:before
+            content: '*'
+            color: #ff0000
+            margin-right: 3px
+
+    &__input
+        font-size: 20px
+        padding: 12px 15px
+        box-sizing: border-box
+        border: 1px solid rgba(23, 23, 25, 0.1)
+        border-radius: 5px
+        width: 430px
+        outline: none
+        margin-bottom: 24px
+
+        &:disabled
+            opacity: 0.3
+            color: #272727
+
+        &::placeholder
+            opacity: 0.3
+            color: #272727
+
+    &__label-select
+        margin-bottom: 4px
+
+    &__select
+        border: 1px solid rgba(23, 23, 25, 0.35)
+        padding: 12px 40px 12px 15px
+        border-radius: 5px
+        font-size: 20px
+        display: block
+        width: 100%
+        opacity: 0.3
+        color: #272727
+
+    &__label-range
+        margin-top: 18px
+        margin-bottom: 18px
+
+    &__range-value
+        color: #272727
+        width: 100px
+        position: absolute
+        display: block
+        bottom: 120px
+        right: 40px
+        font-size: 20px
+        text-align: center
+        border: 1px solid rgba(23, 23, 25, 0.2)
+        border-radius: 5px
+        padding: 13px 0
+
+    &__input-range
+        margin-right: 13px
+        margin-bottom: 57px
+        width: 310px
+
+    &__border-button
+        width: 210px
+        background-color: #fff
+        color: #1390e5
+        border: 1px solid #1390e5
+        margin-right: 10px
+
+        &:hover
+            background-color: #3fc2ea14
+
+        &:active
+            background-color: #50b4e426
+
+    &__button
+        width: 210px

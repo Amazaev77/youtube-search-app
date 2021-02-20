@@ -1,0 +1,60 @@
+.loader
+    margin-top: 230px
+    display: flex
+    justify-content: center
+
+.search
+    &__form
+        width: 686px
+        margin: 220px auto 0
+        position: relative
+
+    &__form-active
+        width: 100%
+        margin: 40px 0
+
+        .search__title
+            font-size: 28px
+            text-align: left
+
+        .search__input
+            width: 890px
+            margin-top: 16px
+
+    &__title
+        color: #000000
+        font-size: 36px
+        font-weight: 400
+        text-align: center
+
+    &__input-wrap
+        width: 536px
+
+    &__input
+        margin-top: 45px
+        width: 536px
+        height: 52px
+        font-size: 20px
+        color: #272727
+        padding-left: 15px
+        padding-right: 54px
+        border-radius: 5px 0 0 5px
+        box-sizing: border-box
+        outline: none
+        border: 1px solid rgba(23, 23, 25, 0.2)
+
+        &::placeholder
+            color: #272727
+            opacity: 0.3
+
+        &:focus
+            transition: all 300ms
+            border: 1px solid #1390e5
+
+        &-active
+            background-color: rgba(197, 228, 249, 0.3)
+            transition: all 300ms
+
+    &__button
+        width: 150px
+        border-radius: 0 5px 5px 0
