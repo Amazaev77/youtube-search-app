@@ -6,10 +6,10 @@
 
 ### Данные для входа первого пользователя
 
-### login: ## user1
-### password: ## user1111
+login: ## user1
+password: ## user1111
 
 ### Данные для входа второго пользователя
 
-### login: ## user2
-### password: ## user2222
+login: ## user2
+password: ## user2222
