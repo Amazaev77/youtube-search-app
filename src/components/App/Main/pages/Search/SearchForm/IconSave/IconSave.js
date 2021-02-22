@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import classes from './Icon-save.module.sass'
 import { useDispatch, useSelector } from 'react-redux'
-import { showModalWindow } from '../../../../../../../redux/features/requests'
+import { showModalWindow } from '../../../../../../../redux/ducks/requests'
 import { Link } from 'react-router-dom'
 
 const IconSave = ({ foundRequest }) => {

@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './card.module.sass'
 import { useDispatch } from 'react-redux'
-import { selectVideo } from '../../../../../../../redux/features/video'
+import { selectVideo } from '../../../../../../../redux/ducks/video'
 
 const HRNumbers = require('human-readable-numbers')
 

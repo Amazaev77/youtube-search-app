@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import classes from './favorites.module.sass'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { deleteRequest, showModalWindow } from '../../../../../redux/features/requests'
+import { deleteRequest, showModalWindow } from '../../../../../redux/ducks/requests'
 import ModalWindow from '../../ModalWindow'
-import { searchVideo } from '../../../../../redux/features/search'
+import { searchVideo } from '../../../../../redux/ducks/search'
 
 const Favorites = () => {
   const [itemSelectedEditable, setItemSelectedEditable] = useState(null)

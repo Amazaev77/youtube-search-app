@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import classes from './modal-window.module.sass'
 import Button from '../../Authorization/Button'
 import { useDispatch, useSelector } from 'react-redux'
-import { addToFavorite, editRequest, hideModal } from '../../../../redux/features/requests'
+import { addToFavorite, editRequest, hideModal } from '../../../../redux/ducks/requests'
 
 const ModalWindow = ({ favoriteRequest, itemEditable }) => {
   const dispatch = useDispatch()

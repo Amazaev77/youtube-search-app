@@ -14,7 +14,7 @@ import {
 const initialState = {
   requests: null,
   loading: false,
-  deleting: false,
+  deleting: null,
   adding: false,
   showModalWindow: false
 }

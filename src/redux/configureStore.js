@@ -1,10 +1,10 @@
 import { applyMiddleware, combineReducers, createStore } from 'redux'
 import { createLogger } from 'redux-logger'
 import thunk from 'redux-thunk'
-import auth from './features/auth'
-import search from './features/search'
-import video from './features/video'
-import requests from './features/requests'
+import auth from './ducks/auth'
+import search from './ducks/search'
+import video from './ducks/video'
+import requests from './ducks/requests'
 
 const rootReducer = combineReducers({
   auth,

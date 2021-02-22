@@ -1,4 +1,4 @@
-import { CLOSE_VIDEO, SELECT_VIDEO } from '../types'
+import { CLOSE_VIDEO, SELECT_VIDEO } from '../types';
 
 const initialState = {
   selectedVideo: null

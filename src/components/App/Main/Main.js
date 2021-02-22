@@ -4,7 +4,7 @@ import { Redirect, Route } from 'react-router-dom'
 import Header from './Header'
 import Search from './pages/Search'
 import Favorites from './pages/Favorites'
-import { loadRequests } from '../../../redux/features/requests'
+import { loadRequests } from '../../../redux/ducks/requests'
 
 const Main = () => {
   const token = useSelector(state => state.auth.token)

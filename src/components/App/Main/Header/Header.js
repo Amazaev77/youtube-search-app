@@ -3,8 +3,8 @@ import classes from './header.module.sass'
 import logo from '../../../../icons/sibdev-logo.svg'
 import { Link, NavLink } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import { logOut } from '../../../../redux/features/auth'
-import { clearSearchData } from '../../../../redux/features/search'
+import { logOut } from '../../../../redux/ducks/auth'
+import { clearSearchData } from '../../../../redux/ducks/search'
 
 const Header = () => {
   const dispatch = useDispatch()

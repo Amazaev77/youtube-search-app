@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import classes from './search-form.module.sass'
 import Button from '../../../../Authorization/Button'
-import { handleRequest, searchVideo } from '../../../../../../redux/features/search'
+import { handleRequest, searchVideo } from '../../../../../../redux/ducks/search'
 import spinner from '../../../../../../icons/big-spinner.svg'
 import IconSave from './IconSave'
 

@@ -56,6 +56,8 @@ export const logIn = (username, password) => {
             ))
         })
 
+        // фейковая авторизаци
+        // в реальном использовал бы JWT
         const token = uuidv4()
 
         if (foundUser) {
@@ -77,12 +79,9 @@ export const logIn = (username, password) => {
 }
 
 export const logOut = () => {
-  return dispatch => {
-    localStorage.removeItem('token')
-    localStorage.removeItem('user')
+  localStorage.removeItem('token');
+  localStorage.removeItem('user');
 
-    dispatch({ type: LOG_OUT })
-  }
-
+  return { type: LOG_OUT };
 }
 
